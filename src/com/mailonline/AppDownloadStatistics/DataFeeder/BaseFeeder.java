@@ -1,6 +1,8 @@
 package com.mailonline.AppDownloadStatistics.DataFeeder;
 
-public class BaseFeeder {
+import com.mailonline.AppDownloadStatistics.Interface.IFeeder;
+
+public class BaseFeeder implements IFeeder {
 	protected String sourceNmae;
 	protected String categoryName;
 	
